@@ -1,0 +1,38 @@
+.film-page__sidebar-title {
+    color: #fff;
+    font-size: 23px;
+}
+
+.film-page__sidebar-block {
+    display: flex;
+    background-color: #282828;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.film-page__sidebar-poster {
+    max-width: 80px;
+}
+
+.film-page__sidebar-subtitle {
+    color: #2a9fd6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.film-page__sidebar-subtitle:hover {
+    color: #1d7097;
+}
+
+.film-page__sidebar-info {
+    padding: 7px;
+}
+
+.film-page__sidebar-info p {
+    color: #adafae;
+    margin: 0;
+    font-size: 14px;
+}
+
+

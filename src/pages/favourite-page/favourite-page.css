@@ -1,0 +1,31 @@
+.fav-page {
+    margin-top: 50px;
+}
+
+.fav-page__title {
+    font-size: 47px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.fav-page__empty {
+    color: #adafae;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #282828;
+    margin: 45px 0 10px;
+}
+
+.fav-page__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 575px) {
+    .fav-page__title{
+        font-size: 28px;
+    }
+}

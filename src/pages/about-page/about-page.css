@@ -1,0 +1,42 @@
+.about-page__title, .about-page__subtitle {
+    color: #fff;
+}
+
+.about-page__intro {
+    background-image: url('../../images//about-bg.jpg');
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 15%;
+    margin-bottom: 50px;
+}
+
+.about-page__title {
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.2;
+}
+.about-page__subtitle{
+    font-size: 48px;
+}
+
+.about-page__text {
+    color: #adafae;
+    font-size: 14px;
+}
+
+
+@media(max-width: 767px) {
+    .about-page__title{
+        margin-left: 20px;
+        text-align: left;
+    }
+}
+@media (max-width: 575px) {
+    .about-page__title{
+        font-size: 32px;
+    }
+    .about-page__subtitle{
+        font-size: 28px;
+    }
+}
